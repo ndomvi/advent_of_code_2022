@@ -22,8 +22,7 @@ for g in range(0, len(dat), 3):
             comm = s
         else:
             comm = comm.intersection(s)
-
-    assert len(comm) == 1
+    
     res += comm.pop()
 
 result = 0
